@@ -18,3 +18,9 @@ body {
   background-color: green;
   cursor: pointer; /* shows it's clickable */
 }
+
+/* Active square state */
+.square.active {
+  background-color: yellow;
+}
+

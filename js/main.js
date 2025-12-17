@@ -1,9 +1,9 @@
 // Select all squares
 const squares = document.querySelectorAll('.square');
 
-// Add click listener to each square
+// Add click behavior
 squares.forEach((square) => {
   square.addEventListener('click', () => {
-    square.style.backgroundColor = 'yellow';
+    square.classList.add('active');
   });
 });
